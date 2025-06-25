@@ -15,7 +15,7 @@ from channels.auth import AuthMiddlewareStack
 import chat_app.routing 
 
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'CommonGroundAPI.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'commongroundapi.settings')
 
 django_asgi_app = get_asgi_application()
 
